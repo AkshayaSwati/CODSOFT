@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Dawn</title>
+    <link rel="stylesheet" type="text/css" href="sty.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Echoes of dawn</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#projects">Poetry</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="content">
+            
+            <center><h1>Echoes of Dawn</h1><br>
+                <h2>Where thoughts bloom in soft hues of light and <br>Stories linger like dawn's gentle light.</h2>
+            </center>
+            <p>Welcome, dear wanderers<br>
+                Here, I share whispers of dreams, echoes of moments lived,<br>
+                Fragments of wonder woven from the heart, into the vast, waiting world."</p>
+            <a href="#blog" class="btn">Read My Blog</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Swati, a passionate writer and storyteller. Here, I share my journey, insights, and creative musings. Let's connect and explore ideas together! A lover of words, a wanderer of thoughts, finding peace in nature and solace in poetry. Join me as I explore life’s subtleties through the lens of poetic expression.</p>
+    </section><br>
+    
+    <section class="skills" id="skills">
+        <h2>Topics</h2>
+        <div class="nav">
+            <a href="#projects">Poetry Collections</a>
+            <a href="#musings">Daily Musings</a>
+            <a href="#diary">Poet’s Diary</a>
+            <a href="#nature-seasons">Nature & Seasons</a>
+            <a href="#quotes">Quotes & Reflections</a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section blog">
+        <h2>Recent Posts</h2>
+        <div class="blog-posts">
+            <article class="post">
+                <img src="w.jpg" alt="Blog post image">
+                <h3>Whispers of dawn</h3>
+                <p>"The world wakes gently, wrapped in pastel hues and soft whispers. The dawn stretches, yawning pink and gold across the sky, as if it, too, is learning to love the day. And I, like the dew-kissed grass, find myself yearning for something tender, something gentle, like the break of morning light."</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="post">
+                <img src="w1.jpg" alt="Blog post image">
+                <h3>Nostalgic moments</h3>
+                <p>"There's a scent in the air, like old letters and warm vanilla. As I sift through the fragile edges of time, I stumble upon fragments of days spent beneath sunlit trees, laughter spilling like honeyed tea. Some memories are too precious to fade, so they live in the back of my mind, a collection of Polaroids I can visit whenever the world feels too heavy."</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="post">
+                <img src="w3.jpg" alt="Blog post image">
+                <h3>Between pages and stars</h3>
+                <p>There's a peace that only a quiet night can bring, curled up with the scent of paper and ink, under a sky embroidered with stars. In those pages, I lose myself, and under that sky, I find the same vastness that fills the words. Like the stars, each story is a spark of something infinite, a reminder of the beauty in moments alone."</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="container">
+        <section id="projects" class="section projects">
+        <h2>My Poetry</h2>
+        <div class="project-item">
+            <h3>Whispers of Autumn</h3>
+            <p>"In quiet shades where sunlight plays,<br>
+                Lost dreams drift by on autumn days.<br>
+                Golden whispers fill the air,<br>
+                A breath of magic, soft and rare."</p>
+                <button onclick="toggleLike(this)" class="like-btn">💜 Like</button>
+            </div>
+        <div class="project-item">
+            <h3>Celestial Dance</h3>
+            <p>"The stars, in secret, weave their light,<br>
+                An endless dance across the night.<br>
+                Silent, soft, and oh so deep,<br>
+                They guard the world as we all sleep."</p>
+                <button onclick="toggleLike(this)" class="like-btn">💜 Like</button>
+            </div>
+        <div class="project-item">
+            <h3>Petals and shadows</h3>
+        <p>"The stars, in secret, weave their light,<br>
+            An endless dance across the night.<br>
+            Silent, soft, and oh so deep,<br>
+            They guard the world as we all sleep."</p> 
+            <button onclick="toggleLike(this)" class="like-btn">💜 Like</button>
+        </div>
+        <div class="project-item">
+                <h3>Secrets of Sea</h3>
+        <p>"The ocean whispers soft to me,<br>
+            In voices wild and waves set free.<br>
+            A thousand secrets yet untold,<br>
+            In waters deep and dark and cold."</p>
+            <button onclick="toggleLike(this)" class="like-btn">💜 Like</button>
+        </div>
+        <div class="project-item">
+                <h3>Morning's Breath</h3>
+        <p>"The morning dew, a crystal song,<br>
+            To greet the earth, where dreams belong.<br>
+            Each drop a tale, each tale a breath,<br>
+            Of fleeting life and soft-spun death."</p> 
+            <button onclick="toggleLike(this)" class="like-btn">💜 Like</button>
+        </div>    
+    </section>
+</div>
+
+<div class="gal">
+    <h1 style="color: rosybrown; text-align: center;">GALLERY</h1>
+<!-- Photo Gallery -->
+<div class="gallery">
+    <img src="https://i.pinimg.com/736x/ec/18/41/ec18412e060a1afdea8fe7e67dd2efcd.jpg" alt="Gallery Image 1" onclick="openLightbox(this)">
+    <img src="https://i.pinimg.com/736x/6a/86/31/6a86317586ccca70bcd3a05061580bdf.jpg" alt="Gallery Image 2" onclick="openLightbox(this)">
+    <img src="https://i.pinimg.com/736x/6d/3a/60/6d3a6020d4c209bf9d6ca49d477749e0.jpg" alt="Gallery Image 3" onclick="openLightbox(this)">
+    <img src="https://i.pinimg.com/736x/5b/4f/3b/5b4f3bd3b23dc444d2260aad3238c67c.jpg" alt="Gallery Image 3" onclick="openLightbox(this)">
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <span onclick="closeLightbox()" class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+
+
+
+ <section id="musings" class="content-section">
+    <div class="mus">
+    <h2 style="color:rgb(170, 139, 131)">Daily Musings</h2>
+    <p style="text-align: center; color:rgb(136, 78, 107)">Thoughts on the day's subtle beauty, moments, and insights...</p>
+    <blockquote style="text-align: center; color:rgb(177, 94, 126)">"Today, the sky whispered secrets only the wind could hear."</blockquote>
+    </div>
+</section>
+
+<section id="nature-seasons">
+    <h2>Nature & Seasons</h2>
+    <div class="nature-seasons">
+        <div class="nature-seasons-item1">
+            <h3 style="color:rgb(163, 38, 86)">Spring: The Awakening of Earth</h3>
+            <p> Spring whispers its arrival with soft breezes,
+                A season of renewal and rebirth. The earth stretches out after its slumber,
+                Blooming in shades of pastel pinks, soft greens, and vibrant yellows.
+                Trees bear the promise of new beginnings,
+                And every petal that unfurls tells a story of growth,
+                Of dreams that awaken with the dawn.
+                <br>
+                Poem:<br>
+                <p style="color:rgb(219, 126, 154)"><i>"Beneath the canopy of blossomed skies,<br>
+                    Where the gentle rains kiss earth’s eyes,<br>
+                    The seed of hope finds fertile ground,<br>
+                    In every corner, life is found."</i></p>
+                </p>
+        </div>
+        <div class="nature-seasons-item2">
+            <h3 style="color:rgb(163, 38, 86)">Summer: The Golden Embrace</h3>
+            <p> Summer holds the sun in a tight embrace,
+                Golden rays dance on emerald leaves,
+                The world hums with warmth and laughter,
+                Days stretch long into the horizon,
+                As fields of green sway under the sun's touch.
+                A time for adventure, for moments that are free,
+                And the colors of the earth seem richer, deeper.
+                <br>
+                Poem:<br>
+                <p style="color:rgb(219, 126, 154)"><i>"Under skies of endless blue,<br>
+                    Where the sun's warmth fills the view,<br>
+                    Summer’s song calls out so sweet,<br>
+                    In every heartbeat, joy repeats."</i></p>
+                </p>
+        </div>
+        <div class="nature-seasons-item3">
+            <h3 style="color:rgb(163, 38, 86)">Autumn: The Melancholy Dance</h3>
+            <p>  Autumn arrives with the grace of a fading sigh,
+                A slow waltz of golden hues,
+                The air sharp and crisp, the leaves turning,
+                As they gently descend in a final farewell.
+                Autumn speaks in whispers of nostalgia,
+                Of moments past and the promise of change,
+                As the earth prepares for the quiet of winter.
+                <br>
+                Poem:<br>
+                <p style="color:rgb(219, 126, 154)"><i>"Golden leaves, so bold, they fall,<br>
+                    A soft descent, the earth’s last call.<br>
+                    Autumn’s breath, a fleeting grace,<br>
+                    A kiss goodbye, a warm embrace."
+                    </i></p>
+                </p>
+        </div>
+        <div class="nature-seasons-item4">
+            <h3 style="color:rgb(163, 38, 86)">Winter: The Silent Reflection</h3>
+            <p> Winter cloaks the world in quiet snow,
+                A peaceful slumber, gentle and still.
+                Each snowflake, unique and pure,
+                Falls from the heavens, an artist’s brushstroke.
+                The world slows down, reflecting on the year passed,
+                A time for introspection, for warmth,
+                As the stars twinkle in the frozen night.
+                <br>
+                Poem:<br>
+                <p style="color:rgb(219, 126, 154)"><i>"In the quiet, snowflakes dance,<br>
+                    A fleeting moment, a tranquil trance.<br>
+                    Winter’s touch, so soft, so clear,<br>
+                    Invites the soul to draw near."</i></p>
+                </p>
+        </div>
+        
+    </div>
+</section>
+</div>
+<section id="diary" class="content-section">
+    <h2>Seasonal Reflections: The Cycle of Life</h2>
+    <p>The seasons are more than just changes in the weather;<br>
+        They are reflections of life itself.<br>
+        In spring, we are reborn with hope and endless possibilities,<br>
+        In summer, we bask in the fullness of our potential,<br>
+        In autumn, we prepare for change and embrace the beauty of transformation,<br>
+        And in winter, we reflect, rest, and prepare for the cycles yet to come.<br>
+        <br>
+        Nature’s seasons echo our own journeys—<br>
+        They remind us that we are part of something far greater,<br>
+        An eternal dance, a rhythmic flow,<br>
+        A reminder to live fully, embrace change, and cherish each moment.</p>
+</section>
+<section id="quotes">
+    <br>
+    <br>
+    <h2>Quotes & Reflections</h2>
+    <div class="quotes">
+        <div class="quote-item">
+            <p>"Life’s melody is not in its speed but in the rhythm of its silences."
+                <br>"Time doesn’t heal wounds; it teaches you to wear your scars with pride."</p>
+            <h4>~ Swati</h4>
+        </div>
+        <div class="quote-item">
+            <p>"Ink spills where the heart dares to wander, and the soul dares to feel."</p>
+            <h4>~ Swati</h4>
+        </div>
+        <div class="quote-item">
+            <p>"The stars are not too far; they’re just whispers of dreams waiting to bloom."</p>
+            <h4>~ Swati</h4>
+        </div>
+    </div>
+</section>
+<script>
+    function openLightbox(img) {
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        lightbox.style.display = "block";
+        lightboxImg.src = img.src;
+    }
+
+    function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+    }
+</script>
+    <script>
+        // Toggle Like Button state
+        function toggleLike(button) {
+            button.classList.toggle("liked");
+            button.innerHTML = button.classList.contains("liked") ? "💖 Liked" : "💜 Like";
+        }
+    </script>
+
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+        <div class="testimonials-header">
+            <h2>What Our Readers say</h2>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"The poetry exceeded our expectations with their excellent service and professionalism."</p>
+                <h4>- Sarah Johnson</h4>
+            </div>
+            <div class="testimonial">
+                <p>"A fantastic experience from start to finish. Highly recommended!"</p>
+                <h4>- David Wilson</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Their attention to detail and commitment to quality is unparalleled."</p>
+                <h4>- Emily Davis</h4>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for Auto-Sliding Testimonials
+        const container = document.querySelector('.testimonials-container');
+        const dots = document.querySelectorAll('.dot');
+        let currentIndex = 0;
+        const totalTestimonials = dots.length;
+
+        function updateTestimonials(index) {
+            // Update slide position
+            const offset = index * -100;
+            container.style.transform = `translateX(${offset}%)`;
+
+            // Update active dot
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        }
+
+        function autoSlide() {
+            currentIndex = (currentIndex + 1) % totalTestimonials;
+            updateTestimonials(currentIndex);
+        }
+
+        let interval = setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+
+        // Pause slider on hover
+        container.addEventListener('mouseenter', () => clearInterval(interval));
+        container.addEventListener('mouseleave', () => interval = setInterval(autoSlide, 3000));
+
+        // Add click functionality for dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateTestimonials(currentIndex);
+            });
+        });
+    </script>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for collaboration, feedback, or just to say hello!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+        <footer>
+            <div class="footer-container">
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4>Contact Me</h4>
+                    <p>Email: akshayaswatir26@gmail.com</p>
+                    <p>Phone: +91 9176323760</p>
+                    <p>Working Hours: Mon-Fri, 9 AM - 6 PM</p>
+                </div>
+    
+                <!-- Social Media Links -->
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <a href="https://facebook.com" target="_blank" title="Facebook">&#xf09a;</a>
+                    <a href="https://twitter.com" target="_blank" title="Twitter">&#xf099;</a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram">&#xf16d;</a>
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn">&#xf08c;</a>
+                </div>
+    
+                <!-- Address -->
+                <div class="footer-address">
+                    <h4>Visit Me</h4>
+                    <p>B-Tech CSBS, RMKEC, </p>
+                    <p>RSM Nagar, Kavarapettai, Tamil Nadu</p>
+                </div>
+            </div>
+    
+            <!-- Bottom Text -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 echoesofdawn. All Rights Reserved.</p>
+            </div>
+        </footer>
+</body>
+</html>
